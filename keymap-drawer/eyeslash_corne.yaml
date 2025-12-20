@@ -1,5 +1,54 @@
 layout: {zmk_keyboard: eyeslash_corne}
 layers:
+  Gallium:
+  - $$mdi:backspace-reverse-outline$$
+  - B
+  - L
+  - D
+  - C
+  - V
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - J
+  - F
+  - O
+  - U
+  - {t: ;, s: ':'}
+  - NUMBER
+  - $$mdi:apple-keyboard-caps$$
+  - {t: N, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: R, h: LGUI}
+  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - '&mmv MCLK'
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - Y
+  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - NUMBER
+  - {t: QWERTY, h: toggle}
+  - X
+  - Q
+  - m
+  - {t: W, h: '$$mdi:apple-keyboard-option$$'}
+  - Z
+  - $$mdi:volume-off$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - K
+  - {t: P, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - NUMBER
+  - {t: '$$mdi:backspace-reverse-outline$$', h: UTILS}
+  - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
+  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
+  - {t: '$$mdi:backspace$$', h: NUMBER}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   QWERTY:
   - $$mdi:backspace-reverse-outline$$
   - Q
@@ -29,7 +78,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: P, h: '$$mdi:apple-keyboard-option$$'}
   - NUMBER
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Gallium, h: toggle}
   - Z
   - X
   - C
@@ -48,7 +97,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:backspace$$', h: NUMBER}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - QWERTY
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   NUMBER:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -144,7 +193,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   UTILS:
@@ -192,8 +241,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   MOUSE:
@@ -248,22 +297,22 @@ layers:
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
-  l: [QWERTY]
+  l: [Gallium]
 - p: [31, 30]
   k: $$mdi:keyboard-esc$$
-  l: [QWERTY]
+  l: [Gallium]
 - p: [38, 39]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [QWERTY]
+  l: [Gallium]
 - p: [45, 44]
-  k: UTILS
-  l: [QWERTY]
+  k: SYMBOL
+  l: [Gallium]
 - p: [39, 38]
   k: '|'
-  l: [SYMBOL]
+  l: [NUMBER]
 - p: [24, 25]
   k: '?'
-  l: [SYMBOL]
+  l: [NUMBER]
 - p: [9, 10]
   k: ':'
-  l: [SYMBOL]
+  l: [NUMBER]
