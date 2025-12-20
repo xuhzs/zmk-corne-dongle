@@ -29,7 +29,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: P, h: '$$mdi:apple-keyboard-option$$'}
   - NUMBER
-  - {t: QWERTY, h: toggle}
+  - {t: Gallium, h: toggle}
   - Z
   - X
   - C
