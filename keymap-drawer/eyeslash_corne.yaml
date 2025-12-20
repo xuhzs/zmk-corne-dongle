@@ -23,7 +23,7 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - '&mmv MCLK'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - Y
+  - P
   - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
@@ -32,13 +32,13 @@ layers:
   - {t: QWERTY, h: toggle}
   - X
   - Q
-  - m
+  - M
   - {t: W, h: '$$mdi:apple-keyboard-option$$'}
   - Z
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - K
-  - {t: P, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
