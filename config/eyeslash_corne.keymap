@@ -121,28 +121,40 @@
             layers = <0>;
         };
 
-        layer3_base {
-            bindings = <&mo 3>;
-            key-positions = <45 44>;
-            layers = <0>;
+        softoff_gallium {
+            bindings = <&soft_off>;
+            key-positions = <1 15 29>;
+            layers = <1>;
+        };
+
+        esc_gallium {
+            bindings = <&kp ESCAPE>;
+            key-positions = <31 30>;
+            layers = <1>;
+        };
+
+        enter_gallium {
+            bindings = <&kp ENTER>;
+            key-positions = <38 39>;
+            layers = <1>;
         };
 
         pipe_symbol {
             bindings = <&kp PIPE>;
             key-positions = <39 38>;
-            layers = <2>;
+            layers = <3>;
         };
 
         question_mark_symbol {
             bindings = <&kp QUESTION>;
             key-positions = <24 25>;
-            layers = <2>;
+            layers = <3>;
         };
 
         colon_symbol {
             bindings = <&kp COLON>;
             key-positions = <9 10>;
-            layers = <2>;
+            layers = <3>;
         };
     };
 
@@ -158,6 +170,18 @@
     keymap {
         compatible = "zmk,keymap";
 
+        default_layer {
+            display-name = "QWERTY";
+            bindings = <
+&kp DEL   &kp Q            &kp W        &kp E         &kp R            &kp T                                      &mmv MOVE_UP                     &kp Y            &kp U            &kp I         &kp O            &kp SEMICOLON  &mo 2
+&kp CAPS  &hml LEFT_ALT A  &hml LGUI S  &hml LCTRL D  &hml LSHFT F     &kp G                      &mmv MOVE_LEFT  &mmv MCLK       &mmv MOVE_RIGHT  &kp H            &hmr RSHFT J     &hmr RCTRL K  &hmr LEFT_GUI L  &hmr LALT P    &mo 2
+&tog 0    &kp Z            &kp X        &kp C         &hml LEFT_ALT V  &kp B        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp N            &hmr LEFT_ALT M  &kp COMMA     &kp DOT          &kp FSLH       &mo 2
+                                        &lt 4 DELETE  &lt 5 TAB        &lt 3 SPACE                                                                 &lt 2 BACKSPACE  &sk LSHIFT       &none
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
+        };
+
         gallium_layer {
             display-name = "Gallium";
             bindings = <
@@ -170,17 +194,6 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        default_layer {
-            display-name = "QWERTY";
-            bindings = <
-&kp DEL   &kp Q            &kp W        &kp E         &kp R            &kp T                                      &mmv MOVE_UP                     &kp Y            &kp U            &kp I         &kp O            &kp SEMICOLON  &mo 2
-&kp CAPS  &hml LEFT_ALT A  &hml LGUI S  &hml LCTRL D  &hml LSHFT F     &kp G                      &mmv MOVE_LEFT  &mmv MCLK       &mmv MOVE_RIGHT  &kp H            &hmr RSHFT J     &hmr RCTRL K  &hmr LEFT_GUI L  &hmr LALT P    &mo 2
-&tog 0    &kp Z            &kp X        &kp C         &hml LEFT_ALT V  &kp B        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp N            &hmr LEFT_ALT M  &kp COMMA     &kp DOT          &kp FSLH       &mo 2
-                                        &lt 4 DELETE  &lt 5 TAB        &lt 3 SPACE                                                                 &lt 2 BACKSPACE  &sk LSHIFT       &none
-            >;
-
-            sensor-bindings = <&scroll_encoder>;
-        };
 
         number_layer {
             display-name = "NUMBER";
