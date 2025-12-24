@@ -28,8 +28,8 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: P, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: Gallium, h: toggle}
-  - {t: Gallium, h: toggle}
+  - {t: Graphite, h: toggle}
+  - {t: Graphite, h: toggle}
   - Z
   - X
   - C
@@ -49,19 +49,19 @@ layers:
   - {t: '$$mdi:backspace$$', h: NUMBER}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  Gallium:
+  Graphite:
   - $$mdi:backspace-reverse-outline$$
   - B
   - L
   - D
-  - C
-  - V
+  - W
+  - Z
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - J
-  - Y
+  - {t: ;, s: ':'}
+  - F
   - O
   - U
-  - {t: ;, s: ':'}
+  - J
   - NUMBER
   - $$mdi:apple-keyboard-caps$$
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
@@ -72,22 +72,22 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - '&mmv MCLK'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - P
+  - Y
   - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: QWERTY, h: toggle}
   - {t: QWERTY, h: toggle}
-  - X
   - Q
+  - X
   - M
-  - {t: W, h: '$$mdi:apple-keyboard-option$$'}
-  - Z
+  - {t: C, h: '$$mdi:apple-keyboard-option$$'}
+  - V
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - K
-  - {t: F, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: P, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
@@ -306,13 +306,13 @@ combos:
   l: [QWERTY]
 - p: [1, 15, 29]
   k: '&soft_off'
-  l: [Gallium]
+  l: [Graphite]
 - p: [31, 30]
   k: $$mdi:keyboard-esc$$
-  l: [Gallium]
+  l: [Graphite]
 - p: [38, 39]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [Gallium]
+  l: [Graphite]
 - p: [39, 38]
   k: '|'
   l: [SYMBOL]
