@@ -321,7 +321,7 @@ layers:
   - J
   - K
   - L
-  - LALT P
+  - P
   - {t: Graphite, h: toggle}
   - {t: QWERTY, h: toggle}
   - Z
