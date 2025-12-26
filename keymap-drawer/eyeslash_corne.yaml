@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - {t: ;, s: ':'}
-  - {t: game, h: toggle}
+  - {t: GAME, h: toggle}
   - $$mdi:apple-keyboard-caps$$
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: LGUI}
@@ -294,7 +294,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  game:
+  GAME:
   - $$mdi:backspace-reverse-outline$$
   - Q
   - W
@@ -307,7 +307,7 @@ layers:
   - I
   - O
   - {t: ;, s: ':'}
-  - NUMBER
+  - {t: QWERTY, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
