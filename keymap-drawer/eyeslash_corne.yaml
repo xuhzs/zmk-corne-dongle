@@ -226,11 +226,11 @@ layers:
   - F9
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:bluetooth-off$$
-  - PLAY
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: PLAY PAUSE, h: '$$mdi:apple-keyboard-option$$'}
-  - PLAY
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
