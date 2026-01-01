@@ -114,12 +114,14 @@
             bindings = <&kp ESCAPE>;
             key-positions = <31 30>;
             layers = <0>;
+            require-prior-idle-ms = <(-1)>;
         };
 
         enter_base {
             bindings = <&kp ENTER>;
             key-positions = <38 39>;
             layers = <0>;
+            require-prior-idle-ms = <(-1)>;
         };
 
         softoff_gallium {
