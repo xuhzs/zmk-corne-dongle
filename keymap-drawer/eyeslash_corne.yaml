@@ -295,7 +295,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   GAME:
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -323,7 +323,7 @@ layers:
   - L
   - P
   - {t: Graphite, h: toggle}
-  - {t: QWERTY, h: toggle}
+  - $$mdi:apple-keyboard-caps$$
   - Z
   - X
   - C
@@ -337,12 +337,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - NUMBER
-  - {t: '$$mdi:backspace-reverse-outline$$', h: UTILS}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', h: NUMBER}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-esc$$
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
