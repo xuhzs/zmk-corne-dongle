@@ -159,6 +159,18 @@
             key-positions = <9 10>;
             layers = <3>;
         };
+
+        symbol-tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <31 30>;
+            layers = <3>;
+        };
+
+        symbol-grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <16 15>;
+            layers = <3>;
+        };
     };
 
     macros {
