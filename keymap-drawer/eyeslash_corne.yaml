@@ -371,3 +371,9 @@ combos:
 - p: [9, 10]
   k: ':'
   l: [SYMBOL]
+- p: [31, 30]
+  k: '~'
+  l: [SYMBOL]
+- p: [16, 15]
+  k: {t: '`', s: '~'}
+  l: [SYMBOL]
