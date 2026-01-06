@@ -162,7 +162,7 @@
 
         symbol-tilde {
             bindings = <&kp TILDE>;
-            key-positions = <31 30>;
+            key-positions = <3 2>;
             layers = <3>;
         };
 
