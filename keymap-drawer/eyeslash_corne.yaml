@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - {t: ;, s: ':'}
-  - {t: GAME, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-caps$$
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: LGUI}
@@ -28,7 +28,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: P, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: Graphite, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Graphite, h: toggle}
   - Z
   - X
