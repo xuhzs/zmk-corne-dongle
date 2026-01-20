@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyeslash_corne}
 layers:
   QWERTY:
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
   - W
   - E
