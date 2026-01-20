@@ -29,7 +29,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: P, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Graphite, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
   - X
   - C
