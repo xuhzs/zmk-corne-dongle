@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyeslash_corne}
 layers:
-  QWERTY:
+  BASE:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
   - W
@@ -42,11 +42,11 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - NUMBER
+  - NUM
   - {t: '$$mdi:backspace-reverse-outline$$', h: UTILS}
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
-  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
-  - {t: '$$mdi:backspace$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-space$$', h: SYM}
+  - {t: '$$mdi:backspace$$', h: NUM}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   Graphite:
@@ -62,7 +62,7 @@ layers:
   - O
   - U
   - J
-  - NUMBER
+  - NUM
   - $$mdi:apple-keyboard-caps$$
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
   - {t: R, h: LGUI}
@@ -77,8 +77,8 @@ layers:
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: QWERTY, h: toggle}
-  - {t: QWERTY, h: toggle}
+  - {t: BASE, h: toggle}
+  - {t: BASE, h: toggle}
   - Q
   - X
   - M
@@ -91,14 +91,14 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - NUMBER
+  - NUM
   - {t: '$$mdi:backspace-reverse-outline$$', h: UTILS}
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
-  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
-  - {t: '$$mdi:backspace$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-space$$', h: SYM}
+  - {t: '$$mdi:backspace$$', h: NUM}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  NUMBER:
+  NUM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '7', s: '&'}
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  SYMBOL:
+  SYM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&'
@@ -193,7 +193,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - NUMBER
+  - NUM
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   UTILS:
@@ -202,7 +202,7 @@ layers:
   - Ins
   - PRINTSCREEN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: GAME, h: toggle}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F8
@@ -307,7 +307,7 @@ layers:
   - I
   - O
   - {t: ;, s: ':'}
-  - {t: QWERTY, h: toggle}
+  - {t: BASE, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -340,19 +340,19 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace$$', h: NUMBER}
+  - {t: '$$mdi:backspace$$', h: NUM}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:keyboard-esc$$
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
-  l: [QWERTY]
+  l: [BASE]
 - p: [31, 30]
   k: $$mdi:keyboard-esc$$
-  l: [QWERTY]
+  l: [BASE]
 - p: [38, 39]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [QWERTY]
+  l: [BASE]
 - p: [1, 15, 29]
   k: '&soft_off'
   l: [Graphite]
@@ -364,16 +364,16 @@ combos:
   l: [Graphite]
 - p: [39, 38]
   k: '|'
-  l: [SYMBOL]
+  l: [SYM]
 - p: [24, 25]
   k: '?'
-  l: [SYMBOL]
+  l: [SYM]
 - p: [9, 10]
   k: ':'
-  l: [SYMBOL]
+  l: [SYM]
 - p: [3, 2]
   k: '~'
-  l: [SYMBOL]
+  l: [SYM]
 - p: [16, 15]
   k: {t: '`', s: '~'}
-  l: [SYMBOL]
+  l: [SYM]
